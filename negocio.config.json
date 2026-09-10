@@ -1,56 +1,59 @@
 {
   "negocio": {
-    "nombre": "Tu Negocio",
-    "logoTexto": "TN",
-    "whatsapp": "5213312345678",
-    "correo": "hola@example.com",
-    "ciudad": "Guadalajara, México",
-    "sitio": "https://example.com"
+    "nombre": "GeniusHaus",
+    "logoTexto": "G",
+    "whatsapp": "525667687196",
+    "correo": "atencionaclientes@geniushaus.mx",
+    "ciudad": "Bahía de Banderas, Nayarit",
+    "sitio": "https://www.geniushaus.mx"
   },
   "marca": {
-    "colorPrincipal": "#E9C36A",
-    "colorAcento": "#6FE3FF",
+    "colorPrincipal": "#FFFFFF",
+    "colorAcento": "#D9D9D9",
     "modo": "oscuro"
   },
   "oferta": {
-    "nombre": "Sesión de diagnóstico",
+    "nombre": "Presentación de los desarrollos inmobiliarios",
     "duracionMinutos": 30,
     "precioTexto": "Sin costo",
     "incluye": [
-      "Revisamos dónde se te están cayendo las ventas",
-      "Te digo qué cambiar primero y por qué",
-      "Sales con un plan escrito de 3 pasos"
+      "Conoces a RIACE, la desarrolladora de los proyectos más importantes de nuestro catálogo",
+      "Revisamos a detalle el desarrollo que más te interesa",
+      "Vemos costos, opciones de financiamiento y fechas de entrega",
+      "Te explicamos la certeza jurídica de la inversión",
+      "Te llevas la cotización de la unidad más atractiva para ti"
     ]
   },
   "landing": {
-    "titular": "Consigue más citas sin perseguir a nadie",
-    "subtitular": "Agenda 30 minutos y salimos con un plan claro para tu negocio.",
-    "ctaTexto": "Quiero mi cita",
-    "urgencia": "Solo abro 8 espacios por semana.",
+    "titular": "GeniusHaus es una firma inmobiliaria enfocada en inversión estratégica, propiedades de alto valor y experiencias de vida premium",
+    "subtitular": "No vendemos propiedades, creamos inversiones inteligentes. Agenda 30 minutos con un asesor y sal con costos, financiamiento y la cotización de tu unidad.",
+    "ctaTexto": "Quiero mi presentación",
+    "urgencia": "Los precios suben sin previo aviso.",
     "dolores": [
-      { "titulo": "La gente pregunta y no vuelve", "texto": "Contestas, mandas precios y se pierde la conversación." },
-      { "titulo": "Tu agenda depende de tu memoria", "texto": "Apuntas citas en notas, chats y papelitos. Se te encima una y quedas mal." },
-      { "titulo": "No sabes en qué va cada quien", "texto": "No tienes una sola pantalla que te diga a quién le hablas hoy." }
+      { "titulo": "La inversión te genera incertidumbre", "texto": "No te quedas tranquilo con la parte del dinero: quieres estar seguro antes de comprometerte." },
+      { "titulo": "Te preocupa que la preventa no cumpla", "texto": "Te da miedo que no entreguen a tiempo, o que la calidad no sea la que te prometieron." },
+      { "titulo": "Te asusta comprometerte a pagos fuertes", "texto": "No sabes si vas a poder con las mensualidades, y prefieres quedarte con tu ahorro o invertir en algo de menos riesgo." }
     ],
     "beneficios": [
-      { "titulo": "Una liga que agenda sola", "texto": "La pegas en tu perfil y la gente elige su horario sin escribirte." },
-      { "titulo": "Confirmación inmediata", "texto": "Al reservar, la persona ve su cita y te manda el aviso por WhatsApp." },
-      { "titulo": "Un tablero con todo", "texto": "Ves quién viene hoy, quién ya compró y a quién le falta seguimiento." }
+      { "titulo": "Sales con la certeza que te faltaba", "texto": "Conoces los números reales y la certeza jurídica del proyecto, sin quedarte con dudas." },
+      { "titulo": "Ves quién construye y cómo cumple", "texto": "Conoces a RIACE, la desarrolladora, y revisamos juntos los tiempos y la calidad de entrega." },
+      { "titulo": "Decides con un plan de pagos que sí te acomoda", "texto": "Revisamos las opciones de financiamiento antes de comprometerte a nada, para que decidas con calma." }
     ],
     "paraQuien": [
-      "Vendes con una conversación (consultoría, servicios, inmobiliaria, salud, seguros)",
-      "Ya te llega gente pero se te pierde en el chat",
-      "Trabajas solo o con un equipo de menos de 10"
+      "Eres profesionista, empresario o inversionista",
+      "Buscas hacer crecer tu patrimonio, no solo gastar",
+      "Estás en un momento donde puedes invertir con tranquilidad"
     ],
     "noParaQuien": [
-      "Vendes producto de mostrador sin cita",
-      "Buscas una tienda en línea con carrito",
-      "No piensas contestar los mensajes"
+      "No buscas hacer crecer tu patrimonio, solo estás viendo por curiosidad",
+      "Necesitas la propiedad para vivir de inmediato, no para invertir a futuro"
     ],
     "preguntas": [
       { "p": "¿Cuánto dura la sesión?", "r": "30 minutos. Empieza y termina a tiempo." },
-      { "p": "¿Es por videollamada o presencial?", "r": "Por videollamada. Te mando la liga al confirmar." },
-      { "p": "¿Y si no puedo el día que aparté?", "r": "Me avisas por WhatsApp y lo movemos." }
+      { "p": "¿Es presencial o por videollamada?", "r": "Por videollamada. Te mando la liga al confirmarte." },
+      { "p": "¿Van a entregar a tiempo y con la calidad que ofrecen?", "r": "En la sesión te mostramos fechas de entrega y la certeza jurídica del proyecto con documentos, no solo promesas." },
+      { "p": "¿Qué pasa si ya vi otro proyecto o ya compré en otro lado?", "r": "Igual te conviene la sesión: te mostramos los números reales de RIACE para que compares con calma, sin presión." },
+      { "p": "¿Necesito vender mi propiedad actual antes de comprar con ustedes?", "r": "No necesariamente. En la sesión revisamos opciones de financiamiento que se ajusten a tu situación." }
     ],
     "prueba": {
       "activa": false,
@@ -59,11 +62,11 @@
   },
   "agenda": {
     "zonaHoraria": "America/Mexico_City",
-    "dias": [1, 2, 3, 4, 5],
+    "dias": [1, 2, 3, 4, 5, 6],
     "horaInicio": "10:00",
     "horaFin": "18:00",
     "duracionMinutos": 30,
-    "anticipacionHoras": 12,
+    "anticipacionHoras": 4,
     "diasAdelante": 14
   },
   "formulario": {
@@ -72,20 +75,20 @@
       { "id": "whatsapp", "etiqueta": "Tu WhatsApp (con lada)", "tipo": "tel", "requerido": true },
       { "id": "correo", "etiqueta": "Tu correo", "tipo": "correo", "requerido": false },
       { "id": "negocio", "etiqueta": "¿A qué te dedicas?", "tipo": "texto", "requerido": false },
-      { "id": "reto", "etiqueta": "¿Qué quieres resolver en la sesión?", "tipo": "parrafo", "requerido": false }
+      { "id": "reto", "etiqueta": "¿Qué te gustaría resolver en la sesión?", "tipo": "parrafo", "requerido": false }
     ]
   },
   "gracias": {
-    "titulo": "Listo, tu lugar está apartado",
-    "mensaje": "Te espero puntual. Guarda la cita en tu calendario y mándame el aviso por WhatsApp para confirmarte.",
+    "titulo": "Listo, tu presentación está apartada",
+    "mensaje": "Un asesor te va a estar esperando en punto. Manda el WhatsApp para confirmarte la liga de la videollamada.",
     "pasos": [
       "Manda el mensaje de WhatsApp (es un toque, ya va escrito)",
       "Agrega la cita a tu calendario",
-      "Llega 2 minutos antes con una libreta"
+      "Ten a la mano tu situación actual para que tu asesor prepare tu cotización"
     ]
   },
   "crm": {
-    "pin": "1234",
+    "pin": "8921",
     "etapas": [
       { "id": "nuevo", "nombre": "Nuevo" },
       { "id": "confirmado", "nombre": "Confirmada" },
