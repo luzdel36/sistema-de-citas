@@ -29,6 +29,9 @@ programar y no pagas nada por publicarlo.
 
 ¿Se te atoró algo? → [docs/PREGUNTAS-FRECUENTES.md](docs/PREGUNTAS-FRECUENTES.md)
 
+**Extra:** ¿quieres que un chatbot conteste los mensajes de WhatsApp solo, usando tu misma
+información de negocio? → [docs/CHATBOT.md](docs/CHATBOT.md)
+
 ---
 
 ## Qué incluye
