@@ -71,7 +71,7 @@ export function Pegar({ recargar }: { recargar: () => void }) {
             <p className="mt-0.5 text-tinta-suave">{textoLargo(detectada.inicio)}</p>
 
             {yaEstaba ? (
-              <p className="mt-3 text-amber-200">
+              <p className="mt-3 text-amber-800">
                 Esta cita ya estaba en tu tablero. Si la agregas otra vez, se actualiza: no se
                 duplica.
               </p>
@@ -86,7 +86,7 @@ export function Pegar({ recargar }: { recargar: () => void }) {
         ) : null}
 
         {!detectada && texto.trim() !== "" ? (
-          <p className="mt-4 leading-relaxed text-amber-200" aria-live="polite">
+          <p className="mt-4 leading-relaxed text-amber-800" aria-live="polite">
             No encontré el código en ese texto. Busca en el mensaje la parte que empieza con{" "}
             <strong className="text-tinta">CITA-</strong> y cópiala completa, sin cortarla. Si esa
             persona te escribió a mano y no tiene código, anótala aquí abajo.
@@ -208,7 +208,7 @@ function AltaManual({ recargar }: { recargar: () => void }) {
         </div>
 
         {error ? (
-          <p role="alert" className="font-medium text-red-300">
+          <p role="alert" className="font-medium text-red-700">
             {error}
           </p>
         ) : null}

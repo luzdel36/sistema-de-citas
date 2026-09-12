@@ -22,8 +22,8 @@
    encima de los de abajo cada vez que abre la página. Lo que ves
    aquí es solo el respaldo, por si algo falla.
 
-   El resto de los tonos (fondo, superficie, borde, tinta) están
-   pensados para verse bien con cualquier color principal cálido.
+   El resto de los tonos (fondo, superficie, borde, tinta) siguen
+   la paleta de GeniusHaus: blanco, gris claro #F4F4F4, negro y gris #6B6B6B.
    ============================================================ */
 
 :root {
@@ -31,24 +31,24 @@
   --marca: #e9c36a;
   --acento: #6fe3ff;
 
-  /* La base oscura cálida */
-  --fondo: #100e0b;
-  --superficie: #1a1611;
-  --borde: #2e271d;
+  /* La base clara de GeniusHaus: blanco, gris claro y negro */
+  --fondo: #ffffff;
+  --superficie: #f4f4f4;
+  --borde: #e2e2e2;
   /* El borde de las cajas de escribir va más claro a propósito: si no se ve
      el recuadro, la gente no sabe dónde escribir. Cumple contraste 3:1. */
-  --borde-campo: #6f6454;
-  --tinta: #f6f1e7;
-  --tinta-suave: #a79b87;
+  --borde-campo: #8a8a8a;
+  --tinta: #000000;
+  --tinta-suave: #6b6b6b;
 
   /* Color del texto que va ENCIMA del color principal (botones) */
-  --tinta-sobre-marca: #17120a;
+  --tinta-sobre-marca: #ffffff;
 
   --fuente-display: "Fraunces", Georgia, "Times New Roman", serif;
   --fuente-texto: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   --radio: 18px;
-  --sombra: 0 18px 50px -20px rgb(0 0 0 / 0.75);
+  --sombra: 0 18px 50px -24px rgb(0 0 0 / 0.18);
 }
 
 /* Conecta nuestros tonos con las clases de Tailwind:
@@ -85,8 +85,8 @@
     margin: 0;
     background-color: var(--fondo);
     background-image:
-      radial-gradient(1100px 620px at 50% -14%, color-mix(in oklab, var(--marca) 13%, transparent), transparent 68%),
-      radial-gradient(760px 520px at 88% 6%, color-mix(in oklab, var(--acento) 7%, transparent), transparent 70%);
+      radial-gradient(1100px 620px at 50% -14%, color-mix(in oklab, var(--acento) 10%, transparent), transparent 68%),
+      radial-gradient(760px 520px at 88% 6%, color-mix(in oklab, var(--marca) 3%, transparent), transparent 70%);
     background-repeat: no-repeat;
     color: var(--tinta);
     font-family: var(--fuente-texto);
@@ -115,7 +115,7 @@
   }
 
   ::selection {
-    background-color: color-mix(in oklab, var(--marca) 35%, transparent);
+    background-color: color-mix(in oklab, var(--acento) 35%, transparent);
     color: var(--tinta);
   }
 
@@ -129,7 +129,8 @@
 
 @layer components {
   .tarjeta {
-    background-color: var(--superficie);
+    /* Blanca: resalta sobre las franjas gris claro #F4F4F4 */
+    background-color: var(--fondo);
     border: 1px solid var(--borde);
     border-radius: var(--radio);
     box-shadow: var(--sombra);
@@ -186,7 +187,7 @@
     font-size: 1rem;
     line-height: 1.4;
     color: var(--tinta);
-    background-color: color-mix(in oklab, var(--fondo) 78%, #000 22%);
+    background-color: var(--fondo);
     border: 1px solid var(--borde-campo);
     border-radius: 12px;
     transition: border-color 0.15s ease, box-shadow 0.15s ease;
@@ -211,7 +212,7 @@
   select.campo {
     appearance: none;
     padding-right: 42px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23bdb3a0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b6b6b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 14px center;
     background-size: 20px 20px;

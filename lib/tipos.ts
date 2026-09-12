@@ -14,6 +14,8 @@ export type Config = {
   negocio: {
     nombre: string;
     logoTexto: string;
+    /** Ruta de la imagen del logo dentro de /public. Si falta, se usa logoTexto. */
+    logoImagen?: string;
     whatsapp: string;
     correo: string;
     ciudad: string;

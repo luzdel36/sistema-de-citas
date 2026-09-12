@@ -253,7 +253,7 @@ export function Ficha({
               <button
                 type="button"
                 onClick={() => setConfirmando(true)}
-                className="inline-flex min-h-12 cursor-pointer items-center rounded-full border border-red-400/35 px-6 text-[1.0625rem] font-semibold text-red-300 transition hover:bg-red-500/10"
+                className="inline-flex min-h-12 cursor-pointer items-center rounded-full border border-red-400/35 px-6 text-[1.0625rem] font-semibold text-red-700 transition hover:bg-red-500/10"
               >
                 Borrar cita
               </button>

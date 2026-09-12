@@ -210,7 +210,7 @@ export function Datos({ citas, recargar }: { citas: Cita[]; recargar: () => void
             <button
               type="button"
               onClick={() => setPaso(1)}
-              className="inline-flex min-h-12 cursor-pointer items-center rounded-full border border-red-400/40 px-6 text-[1.0625rem] font-semibold text-red-300 transition hover:bg-red-500/10"
+              className="inline-flex min-h-12 cursor-pointer items-center rounded-full border border-red-400/40 px-6 text-[1.0625rem] font-semibold text-red-700 transition hover:bg-red-500/10"
             >
               Borrar todas mis citas
             </button>
@@ -225,7 +225,7 @@ export function Datos({ citas, recargar }: { citas: Cita[]; recargar: () => void
                 <button
                   type="button"
                   onClick={() => setPaso(2)}
-                  className="inline-flex min-h-12 cursor-pointer items-center rounded-full border border-red-400/40 px-6 text-[1.0625rem] font-semibold text-red-300 transition hover:bg-red-500/10"
+                  className="inline-flex min-h-12 cursor-pointer items-center rounded-full border border-red-400/40 px-6 text-[1.0625rem] font-semibold text-red-700 transition hover:bg-red-500/10"
                 >
                   Ya tengo mi respaldo, sigue
                 </button>
@@ -262,7 +262,7 @@ export function Datos({ citas, recargar }: { citas: Cita[]; recargar: () => void
         {aviso}
       </p>
       {error ? (
-        <p role="alert" className="font-medium text-red-300">
+        <p role="alert" className="font-medium text-red-700">
           {error}
         </p>
       ) : null}

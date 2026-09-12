@@ -54,7 +54,7 @@ export function BarraFija() {
           visible ? "translate-y-0" : "pointer-events-none translate-y-[130%]",
         ].join(" ")}
       >
-        <div className="vidrio flex items-center gap-3 p-3 shadow-[0_-14px_40px_-18px_rgb(0_0_0/0.9)]">
+        <div className="vidrio flex items-center gap-3 p-3 shadow-[0_-14px_40px_-18px_rgb(0_0_0/0.25)]">
           <div className="min-w-0 flex-1">
             <p className="truncate font-semibold leading-snug">{oferta.nombre}</p>
             <p className="truncate leading-snug text-tinta-suave">

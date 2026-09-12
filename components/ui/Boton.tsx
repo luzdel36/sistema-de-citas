@@ -34,7 +34,7 @@ const porTamano: Record<Tamano, string> = {
 
 const porVariante: Record<Variante, string> = {
   principal:
-    "bg-marca text-sobre-marca shadow-[0_14px_34px_-14px_var(--marca)] hover:brightness-110",
+    "bg-marca text-sobre-marca shadow-[0_14px_34px_-18px_var(--marca)] hover:opacity-85",
   secundario:
     "bg-transparent text-tinta border border-borde hover:border-marca hover:bg-[color-mix(in_oklab,var(--marca)_10%,transparent)]",
   fantasma:

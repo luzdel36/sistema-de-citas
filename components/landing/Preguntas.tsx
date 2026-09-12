@@ -16,7 +16,7 @@ export function Preguntas() {
                 viewBox="0 0 24 24"
                 fill="none"
                 aria-hidden
-                className="h-6 w-6 shrink-0 text-marca transition-transform duration-200 group-open:rotate-180"
+                className="h-6 w-6 shrink-0 text-acento transition-transform duration-200 group-open:rotate-180"
               >
                 <path
                   d="M6 9.5l6 6 6-6"

@@ -1,16 +1,17 @@
 {
   "negocio": {
     "nombre": "GeniusHaus",
-    "logoTexto": "G",
+    "logoTexto": "GH",
+    "logoImagen": "/logo-gh.png",
     "whatsapp": "525667687196",
     "correo": "atencionaclientes@geniushaus.mx",
     "ciudad": "Bahía de Banderas, Nayarit",
     "sitio": "https://www.geniushaus.mx"
   },
   "marca": {
-    "colorPrincipal": "#FFFFFF",
-    "colorAcento": "#D9D9D9",
-    "modo": "oscuro"
+    "colorPrincipal": "#000000",
+    "colorAcento": "#A68C5B",
+    "modo": "claro"
   },
   "oferta": {
     "nombre": "Presentación de los desarrollos inmobiliarios",

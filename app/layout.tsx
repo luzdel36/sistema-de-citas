@@ -23,8 +23,8 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  colorScheme: "dark",
-  themeColor: "#100e0b",
+  colorScheme: "light",
+  themeColor: "#ffffff",
 };
 
 /**
@@ -46,8 +46,8 @@ function sitioValido(sitio: string): boolean {
 
 const variablesDeMarca = [
   ":root{",
-  `--marca:${colorSeguro(config.marca.colorPrincipal, "#e9c36a")};`,
-  `--acento:${colorSeguro(config.marca.colorAcento, "#6fe3ff")};`,
+  `--marca:${colorSeguro(config.marca.colorPrincipal, "#000000")};`,
+  `--acento:${colorSeguro(config.marca.colorAcento, "#a68c5b")};`,
   "}",
 ].join("");
 

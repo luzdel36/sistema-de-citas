@@ -51,7 +51,7 @@ export function Entrada({ alEntrar }: { alEntrar: () => void }) {
           />
 
           {error ? (
-            <p id="pin-error" role="alert" className="mt-3 font-medium text-red-300">
+            <p id="pin-error" role="alert" className="mt-3 font-medium text-red-700">
               {error}
             </p>
           ) : null}

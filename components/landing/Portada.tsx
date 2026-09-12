@@ -11,12 +11,12 @@ function Fondo() {
         className="absolute inset-0"
         style={{
           background:
-            "radial-gradient(64rem 34rem at 4% -14%, color-mix(in oklab, var(--marca) 16%, transparent), transparent 62%)," +
-            "radial-gradient(52rem 30rem at 104% 4%, color-mix(in oklab, var(--acento) 11%, transparent), transparent 64%)",
+            "radial-gradient(64rem 34rem at 4% -14%, color-mix(in oklab, var(--acento) 14%, transparent), transparent 62%)," +
+            "radial-gradient(52rem 30rem at 104% 4%, color-mix(in oklab, var(--marca) 4%, transparent), transparent 64%)",
         }}
       />
       <svg
-        className="absolute inset-0 h-full w-full opacity-[0.14]"
+        className="absolute inset-0 h-full w-full opacity-[0.08]"
         style={{
           maskImage: "linear-gradient(to bottom, black, transparent 78%)",
           WebkitMaskImage: "linear-gradient(to bottom, black, transparent 78%)",
@@ -35,7 +35,7 @@ function Fondo() {
         className="absolute -right-28 -top-32 h-[30rem] w-[30rem] opacity-30 sm:h-[40rem] sm:w-[40rem]"
       >
         {[70, 110, 150, 190].map((r) => (
-          <circle key={r} cx="200" cy="200" r={r} stroke="var(--marca)" strokeWidth="0.8" />
+          <circle key={r} cx="200" cy="200" r={r} stroke="var(--acento)" strokeWidth="0.8" />
         ))}
         <circle cx="200" cy="200" r="34" fill="color-mix(in oklab, var(--acento) 20%, transparent)" />
       </svg>
@@ -116,7 +116,7 @@ export function Portada() {
         <ul className="mt-12 grid gap-4 sm:mt-16 sm:grid-cols-3">
           {senales.map((s) => (
             <li key={s.titulo} className="vidrio flex items-start gap-3 p-5">
-              <span className="text-marca">{s.icono}</span>
+              <span className="text-acento">{s.icono}</span>
               <span className="min-w-0">
                 <span className="block text-lg font-semibold">{s.titulo}</span>
                 <span className="mt-1 block text-tinta-suave">{s.texto}</span>

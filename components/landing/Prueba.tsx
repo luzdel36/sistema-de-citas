@@ -16,7 +16,7 @@ export function Prueba() {
       <ul className="mt-10 grid gap-4 sm:grid-cols-2">
         {prueba.items.map((item) => (
           <li key={`${item.autor}-${item.texto.slice(0, 24)}`} className="tarjeta p-6 sm:p-7">
-            <svg viewBox="0 0 24 24" aria-hidden className="h-7 w-7 text-marca">
+            <svg viewBox="0 0 24 24" aria-hidden className="h-7 w-7 text-acento">
               <path
                 fill="currentColor"
                 d="M9.6 5.4C6.5 6.8 4.6 9.6 4.6 13v5.6h6.2V13H8.1c0-2 .9-3.5 2.7-4.4l-1.2-3.2Zm9 0C15.5 6.8 13.6 9.6 13.6 13v5.6h6.2V13h-2.7c0-2 .9-3.5 2.7-4.4l-1.2-3.2Z"

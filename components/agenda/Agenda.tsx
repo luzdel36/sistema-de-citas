@@ -236,7 +236,7 @@ export function Agenda() {
       {aviso ? (
         <p
           role="alert"
-          className="mt-4 rounded-2xl border border-amber-300/40 bg-amber-300/10 px-4 py-3 text-base text-amber-100"
+          className="mt-4 rounded-2xl border border-amber-300/40 bg-amber-300/10 px-4 py-3 text-base text-amber-800"
         >
           {aviso}
         </p>
@@ -296,7 +296,7 @@ export function Agenda() {
             {Object.keys(errores).length > 0 ? (
               <p
                 role="alert"
-                className="mb-5 rounded-2xl border border-red-400/40 bg-red-400/10 px-4 py-3 text-base text-red-100"
+                className="mb-5 rounded-2xl border border-red-400/40 bg-red-400/10 px-4 py-3 text-base text-red-800"
               >
                 Revisa los datos marcados en rojo y lo intentamos de nuevo.
               </p>

@@ -2,7 +2,7 @@ import { config } from "@/lib/negocio";
 
 function Si() {
   return (
-    <svg viewBox="0 0 24 24" fill="none" aria-hidden className="mt-1 h-6 w-6 shrink-0 text-marca">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden className="mt-1 h-6 w-6 shrink-0 text-acento">
       <path
         d="M6 12.4l3.6 3.6L18 7.6"
         stroke="currentColor"

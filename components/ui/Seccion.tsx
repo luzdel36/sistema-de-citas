@@ -13,7 +13,7 @@ type Props = {
 const porTono: Record<"oscuro" | "claro", string> = {
   oscuro: "",
   claro:
-    "bg-[color-mix(in_oklab,var(--superficie)_96%,var(--marca))] " +
+    "bg-superficie " +
     "border-y border-[color-mix(in_oklab,var(--tinta)_9%,transparent)]",
 };
 

@@ -82,7 +82,7 @@ export function Formulario({ campos, valores, errores, alCambiar }: Props) {
             )}
 
             {error ? (
-              <p id={idError} className="mt-2 text-base font-medium text-red-300">
+              <p id={idError} className="mt-2 text-base font-medium text-red-700">
                 {error}
               </p>
             ) : null}

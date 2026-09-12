@@ -15,7 +15,7 @@ export function Beneficios() {
       <ul className="mt-10 grid gap-4 sm:grid-cols-3">
         {beneficios.map((b) => (
           <li key={b.titulo} className="tarjeta flex h-full flex-col p-6">
-            <span aria-hidden className="block h-1.5 w-12 rounded-full bg-marca" />
+            <span aria-hidden className="block h-1.5 w-12 rounded-full bg-acento" />
             <h3 className="mt-5 text-xl leading-snug">{b.titulo}</h3>
             <p className="mt-3 text-tinta-suave">{b.texto}</p>
           </li>

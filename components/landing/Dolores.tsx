@@ -18,7 +18,7 @@ export function Dolores() {
             <span
               aria-hidden
               className="grid size-10 shrink-0 place-items-center rounded-full text-lg font-semibold text-marca"
-              style={{ backgroundColor: "color-mix(in oklab, var(--marca) 16%, transparent)" }}
+              style={{ backgroundColor: "color-mix(in oklab, var(--acento) 18%, transparent)" }}
             >
               {i + 1}
             </span>
